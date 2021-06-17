@@ -502,7 +502,7 @@ include('include/csslinks.php');
     <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
       <h3>Address</h3>
       <p>Satna Madhya Pradesh India.</p>
-      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i></p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>India</p>
       <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +91 8630211986</p>
       <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>pankajneeraj541@gmail.com</p>
     </div>
