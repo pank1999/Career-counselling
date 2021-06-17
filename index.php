@@ -107,7 +107,7 @@ include('include/header.php');
     <!-- Portfolio Section -->
     <div class="container">
     <div class="jumbotron col-xs-12"style="background-color:skyblue; margin-top:10px;" >
-      <h1 style="text-align:center; text-decoration:underline;">some of the popular careers</h1>
+      <h1 style="text-align:center; text-decoration:underline;">Some of the Popular Careers</h1>
 
     </div>
     </div>
