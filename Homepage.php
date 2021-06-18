@@ -18,7 +18,8 @@ session_start();
 
   <!-- Bootstrap core CSS -->
   <link href="https://career-counselling.herokuapp.com/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  
   <!-- Custom styles for this template -->
   <link href="https://career-counselling.herokuapp.com/css/modern-business.css" rel="stylesheet">
 
@@ -27,8 +28,8 @@ session_start();
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <?php
-include('include/csslinks.php');
-?>
+  //     include('include/csslinks.php');
+  ?>
 <style>
    .inner{
      overflow: hidden;
