@@ -14,10 +14,10 @@ session_start();
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>career counselling</title>
+  <title>career counseling</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://career-counselling.herokuapp.com/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
@@ -63,17 +63,17 @@ include('include/csslinks.php');
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="http://localhost/phplessons/hackathon-website/Homepage.php" style="text-decoration:none;" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
-  <a href="http://localhost/phplessons/hackathon-website/index.php" style="text-decoration:none;" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Career</a>
-  <a href="http://localhost/phplessons/hackathon-website/expert.php" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="text-decoration:none;">Advice</a>
+  <a href="http://career-counselling.herokuapp.com/Homepage.php" style="text-decoration:none;" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="http://career-counselling.herokuapp.com/index.php" style="text-decoration:none;" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Career</a>
+  <a href="http://career-counselling.herokuapp.com/expert.php" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="text-decoration:none;">Advice</a>
   
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="text-decoration:none;">Contact</a>
     <div class="w3-dropdown-hover w3-hide-small">
     <button class="w3-button" title="Notifications">Select <i class="fa fa-caret-down"></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="http://localhost/phplessons/hackathon-website/Dashboard01.php" class="w3-bar-item w3-button w3-hover-teal" style="text-decoration:none;">class 8-10</a>
-      <a href="http://localhost/phplessons/hackathon-website/Dashboard01.php" class="w3-bar-item w3-button w3-hover-teal"style="text-decoration:none;">class 11 & 12</a>
-      <a href="http://localhost/phplessons/hackathon-website/Dashboard01.php" class="w3-bar-item w3-button w3-hover-teal"style="text-decoration:none;">Graduation</a>
+      <a href="http://career-counselling.herokuapp.com/Dashboard01.php" class="w3-bar-item w3-button w3-hover-teal" style="text-decoration:none;">class 8-10</a>
+      <a href="http://career-counselling.herokuapp.com/Dashboard01.php" class="w3-bar-item w3-button w3-hover-teal"style="text-decoration:none;">class 11 & 12</a>
+      <a href="http://career-counselling.herokuapp.com/Dashboard01.php" class="w3-bar-item w3-button w3-hover-teal"style="text-decoration:none;">Graduation</a>
     </div>
   </div>
 
@@ -81,19 +81,19 @@ include('include/csslinks.php');
    
    if(!isset($_SESSION['email'])){
    ?>
-      <a href="http://localhost/phpmyadmin/" style="text-decoration:none;" target="blank" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Admin"><span class="glyphicon glyphicon-user"></span>Admin</a>
-    <a href="http://localhost/phplessons/hackathon-website/signup.php" style="text-decoration:none;"class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-white" title="signup"><span class="glyphicon glyphicon-user"></span>signup</a>
+      <a href="http://career-counselling.herokuapp.com/phpmyadmin/" style="text-decoration:none;" target="blank" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Admin"><span class="glyphicon glyphicon-user"></span>Admin</a>
+    <a href="http://career-counselling.herokuapp.com/signup.php" style="text-decoration:none;"class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-white" title="signup"><span class="glyphicon glyphicon-user"></span>signup</a>
     <a href="#" data-toggle="modal" data-target="#loginmodal" class="w3-bar-item w3-button w3-hide-small  w3-hover-white" style="text-decoration:none;margin-left:600px;"title="login"><span class="glyphicon glyphicon-log-in"></span>login</a>
    <?php } ?>
     <?php 
 
       if(isset($_SESSION['email'])){ ?>
-        <a href="http://localhost/phplessons/hackathon-website/logout.php" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="logout"><span class="glyphicon glyphicon-log-out"></span>logout</a>
+        <a href="http://career-counselling.herokuapp.com/logout.php" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="logout"><span class="glyphicon glyphicon-log-out"></span>logout</a>
       <?php } ?>
  </div>
 <!-- Navbar on small screens -->
  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="http://localhost/phplessons/hackathon-website/index.php" class="w3-bar-item w3-button">Career</a>
+    <a href="http://career-counselling.herokuapp.com/index.php" class="w3-bar-item w3-button">Career</a>
     <a href="#work" class="w3-bar-item w3-button">Streams</a>
     <a href="#pricing" class="w3-bar-item w3-button">Advice</a>
     <a href="#contact" class="w3-bar-item w3-button">Contact</a>
@@ -114,7 +114,7 @@ include('include/csslinks.php');
         <div class="carousel-item active" > 
         
         
-          <img src="http://localhost/phplessons/hackathon-website/image/career-slide-5" alt="responsive" class="img img-responsive" style="width:100%; height:100%;">
+          <img src="http://career-counselling.herokuapp.com/image/career-slide-5" alt="responsive" class="img img-responsive" style="width:100%; height:100%;">
           
           <div class="carousel-caption d-none d-md-block">
             <h2 style="color:white; margin-top:50px;"></h2>
@@ -123,7 +123,7 @@ include('include/csslinks.php');
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" >
-        <img src="http://localhost/phplessons/hackathon-website/image/careers_slide-4.jpg" alt="responsive" class="img img-responsive" style="width:100%;height:100%;">
+        <img src="http://career-counselling.herokuapp.com/image/careers_slide-4.jpg" alt="responsive" class="img img-responsive" style="width:100%;height:100%;">
           <div class="carousel-caption d-none d-md-block">
             <h3></h3>
             <p></p>
@@ -132,7 +132,7 @@ include('include/csslinks.php');
         <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" >
 
-        <img src="http://localhost/phplessons/hackathon-website/image/Career-slide-3" alt="responsive" class="img img-responsive" style="width:100%;height:100%;">
+        <img src="http://career-counselling.herokuapp.com/image/Career-slide-3" alt="responsive" class="img img-responsive" style="width:100%;height:100%;">
           <div class="carousel-caption d-none d-md-block">
             <h3></h3>
             <p></p>
@@ -167,7 +167,7 @@ include('include/csslinks.php');
     border-radius: 15px;
     box-shadow: 0 9px rgb(94, 93, 91); ">
      
-     <a href="http://localhost/phplessons/hackathon-website/Dashboard01.php"  style="text-decoration:none;">Get Started</a>
+     <a href="http://career-counselling.herokuapp.com/Dashboard01.php"  style="text-decoration:none;">Get Started</a>
      </button>
       <?php } 
       else{ ?>
@@ -210,9 +210,9 @@ include('include/csslinks.php');
         <li class="w3-theme-l5 w3-padding-24">
         
         <?php if((isset($_SESSION['email']))){?>
-          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://localhost/phplessons/hackathon-website/Dashboard01.php" style="text-decoration:none;">Start</a></button>
+          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://career-counselling.herokuapp.com/Dashboard01.php" style="text-decoration:none;">Start</a></button>
         <?php } else{?>
-          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://localhost/phplessons/hackathon-website/login.php" style="text-decoration:none;">Start</a></button>
+          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://career-counselling.herokuapp.com/login.php" style="text-decoration:none;">Start</a></button>
         <?php }?> 
 
         
@@ -233,9 +233,9 @@ include('include/csslinks.php');
         </li>
         <li class="w3-theme-l5 w3-padding-24">
         <?php if((isset($_SESSION['email']))){?>
-          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://localhost/phplessons/hackathon-website/Dashboard01.php" style="text-decoration:none;">Start</a></button>
+          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://career-counselling.herokuapp.com/Dashboard01.php" style="text-decoration:none;">Start</a></button>
         <?php } else{?>
-          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://localhost/phplessons/hackathon-website/login.php" style="text-decoration:none;">Start</a></button>
+          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://career-counselling.herokuapp.com/login.php" style="text-decoration:none;">Start</a></button>
         <?php }?> 
         </li>
       </ul>
@@ -253,9 +253,9 @@ include('include/csslinks.php');
         
         <li class="w3-theme-l5 w3-padding-24">
         <?php if((isset($_SESSION['email']))){?>
-          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://localhost/phplessons/hackathon-website/Dashboard01.php" style="text-decoration:none;">Start</a></button>
+          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://career-counselling.herokuapp.com/Dashboard01.php" style="text-decoration:none;">Start</a></button>
         <?php } else{?>
-          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://localhost/phplessons/hackathon-website/login.php" style="text-decoration:none;">Start</a></button>
+          <button   class="w3-button w3-teal w3-padding-large"> <i class=""></i> <a  href="http://career-counselling.herokuapp.com/login.php" style="text-decoration:none;">Start</a></button>
         <?php }?> 
         </li>
       </ul>
@@ -277,7 +277,7 @@ include('include/csslinks.php');
 
 <div class="w3-quarter">
 <div class="w3-card w3-white">
-  <img src="http://localhost/phplessons/hackathon-website/image/slide1.jpg" alt="Snow" style="width:100% ;height:230px;">
+  <img src="http://career-counselling.herokuapp.com/image/slide1.jpg" alt="Snow" style="width:100% ;height:230px;">
   <div style="margin-top:10px; background-color:black;"> </div> 
  
   </div>
@@ -285,14 +285,14 @@ include('include/csslinks.php');
 
 <div class="w3-quarter">
 <div class="w3-card w3-white">
-  <img src="http://localhost/phplessons/hackathon-website/image/slide2.png" alt="Lights" style="width:100% ;height:230px;">
+  <img src="http://career-counselling.herokuapp.com/image/slide2.png" alt="Lights" style="width:100% ;height:230px;">
  
   </div>
 </div>
 
 <div class="w3-quarter">
 <div class="w3-card w3-white">
-  <img src="http://localhost/phplessons/hackathon-website/image/slide3.png" alt="Mountains" style="width:100% ;height:230px;">
+  <img src="http://career-counselling.herokuapp.com/image/slide3.png" alt="Mountains" style="width:100% ;height:230px;">
   
   </div>
 </div>
@@ -380,7 +380,7 @@ include('include/csslinks.php');
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
       </div>
       <div class="col-lg-6  inner">
-        <img class="img-fluid rounded" src="http://localhost/phplessons/hackathon-website/image/backgroundpdf.jpg">
+        <img class="img-fluid rounded" src="http://career-counselling.herokuapp.com/image/backgroundpdf.jpg">
       </div>
     </div>
     <!-- /.row -->
@@ -397,10 +397,10 @@ include('include/csslinks.php');
       <div class="col-md-4">
         <?php if(!isset($_SESSION['email'])){ ?>
         
-          <a class="btn btn-lg btn-success btn-block" href="http://localhost/phplessons/hackathon-website/signup.php">Get started</a>
+          <a class="btn btn-lg btn-success btn-block" href="http://career-counselling.herokuapp.com/signup.php">Get started</a>
       
         <?php } else{ ?>
-          <a class="btn btn-lg btn-success btn-block" href="http://localhost/phplessons/hackathon-website/Dashboard01.php">Get started</a>
+          <a class="btn btn-lg btn-success btn-block" href="http://career-counselling.herokuapp.com/Dashboard01.php">Get started</a>
         <?php } ?>
     
       
@@ -467,25 +467,25 @@ include('include/csslinks.php');
     <div class="row">
        <div class="col-xs-3  shadow inner">
           <div cl="thumbnail  ">
-          <img class="img-fluid rounded" style="height:200px;" src="http://localhost/phplessons/hackathon-website/image/interest.jpg">
+          <img class="img-fluid rounded" style="height:200px;" src="http://career-counselling.herokuapp.com/image/interest.jpg">
           </div>
        </div>
 
        <div class="col-xs-3 shadow inner">
           <div cl="thumbnail ">
-          <img class="img-fluid rounded" style="height:200px;width:300px;" src="http://localhost/phplessons/hackathon-website/image/skills.jpg">
+          <img class="img-fluid rounded" style="height:200px;width:300px;" src="http://career-counselling.herokuapp.com/image/skills.jpg">
           </div>
        </div>
 
        <div class="col-xs-3  shadow inner">
           <div cl="thumbnail ">
-           <img class="img-fluid rounded" style="height:200px;" src="http://localhost/phplessons/hackathon-website/image/strengths-img.jpg">
+           <img class="img-fluid rounded" style="height:200px;" src="http://career-counselling.herokuapp.com/image/strengths-img.jpg">
           </div>
        </div>
 
        <div class="col-xs-3  shadow inner">
           <div cl="thumbnail ">
-          <img class="img-fluid rounded" style="height:200px;" src="http://localhost/phplessons/hackathon-website/image/goals.jpg">
+          <img class="img-fluid rounded" style="height:200px;" src="http://career-counselling.herokuapp.com/image/goals.jpg">
           </div>
        </div>
     </div>
@@ -553,8 +553,8 @@ include('include/csslinks.php');
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="http://career-counselling.herokuapp.com/vendor/jquery/jquery.min.js"></script>
+  <script src="http://career-counselling.herokuapp.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
