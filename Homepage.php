@@ -114,7 +114,7 @@ include('include/csslinks.php');
         <div class="carousel-item active" > 
         
         
-          <img src="https://career-counselling.herokuapp.com/image/career-slide-5.jpg" alt="responsive" class="img img-responsive" style="width:100%; height:100%;">
+          <img src="https://career-counselling.herokuapp.com/image/Career-slide-5.jpg" alt="responsive" class="img img-responsive" style="width:100%; height:100%;">
           
           <div class="carousel-caption d-none d-md-block">
             <h2 style="color:white; margin-top:50px;"></h2>
