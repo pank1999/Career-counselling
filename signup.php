@@ -31,8 +31,8 @@
     <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="http://localhost/phplessons/hackathon-website/design1.php" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
-  <a href="http://localhost/phplessons/hackathon-website/startbootstrap-modern-business-gh-pages/index.php" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Career</a>
+  <a href="https://career-counselling.herokuapp.com/design1.php" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="https://career-counselling.herokuapp.com/index.php" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Career</a>
   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Streams</a>
   <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Advice</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
@@ -44,12 +44,12 @@
       <a href="#" class="w3-bar-item w3-button">Graduation</a>
     </div>
   </div>
-  <a href="http://localhost/phplessons/hackathon-website/signup.php" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="signup"><span class="glyphicon glyphicon-user"></span>signup</a>
-  <a href="http://localhost/phplessons/hackathon-website/login.php" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="login"><span class="glyphicon glyphicon-log-in"></span>login</a>
+  <a href="https://career-counselling.herokuapp.com/signup.php" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="signup"><span class="glyphicon glyphicon-user"></span>signup</a>
+  <a href="https://career-counselling.herokuapp.com/login.php" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="login"><span class="glyphicon glyphicon-log-in"></span>login</a>
  </div>
 
  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="http://localhost/phplessons/hackathon-website/startbootstrap-modern-business-gh-pages/index.php" class="w3-bar-item w3-button">Career</a>
+    <a href="https://career-counselling.herokuapp.com/index.php" class="w3-bar-item w3-button">Career</a>
     <a href="#work" class="w3-bar-item w3-button">Streams</a>
     <a href="#pricing" class="w3-bar-item w3-button">Advice</a>
     <a href="#contact" class="w3-bar-item w3-button">Contact</a>

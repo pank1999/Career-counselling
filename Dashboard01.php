@@ -100,7 +100,7 @@ include('include/header.php');
                                             <th> <span class="glyphicon glyphicon-link"></span> Dashboard</th>
                                         </tr>
                                         <tr>
-                                            <th><a  style="color:white;" href="http://localhost/phplessons/hackathon-website/profile.php"><span class="glyphicon glyphicon-user"></span> profile</a></th>
+                                            <th><a  style="color:white;" href="https://career-counselling.herokuapp.com/profile.php"><span class="glyphicon glyphicon-user"></span> profile</a></th>
                                         </tr>
                                         <tr>
                                             <th>
@@ -115,7 +115,7 @@ include('include/header.php');
                                             <th> <span class="glyphicon glyphicon-education"></span> result</th>
                                         </tr>
                                         <tr>
-                                            <th> <a href="http://localhost/phplessons/hackathon-website/startbootstrap-modern-business-gh-pages/index.php"> <span class="glyphicon glyphicon-th"></span> career</a> </th>
+                                            <th> <a href="https://career-counselling.herokuapp.com/index.php"> <span class="glyphicon glyphicon-th"></span> career</a> </th>
                                         </tr>
                                         <tr>
                                             <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> report </a></th>
@@ -183,7 +183,7 @@ include('include/header.php');
                                                      </div>
                                                    </div>
                                                    
-                                                   <a href="dashboard_graduation.php" style="text-decoration:none;"><button class="btn btn-danger btn-block "  >Start</button></a>
+                                                   <a href="https://career-counselling.herokuapp.com/dashboard_graduation.php" style="text-decoration:none;"><button class="btn btn-danger btn-block "  >Start</button></a>
   
                                                 </div>
 

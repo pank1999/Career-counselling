@@ -104,7 +104,7 @@ $row3=mysqli_num_rows($q3_result);
                                             <th> <span class="glyphicon glyphicon-link"></span> Dashboard</th>
                                         </tr>
                                         <tr>
-                                            <th><a href="http://localhost/phplessons/hackathon-website/profile.php" ><span class="glyphicon glyphicon-user"></span> profile</a></th>
+                                            <th><a href="https://career-counselling.herokuapp.com/profile.php" ><span class="glyphicon glyphicon-user"></span> profile</a></th>
                                         </tr>
                                         <tr>
                                             <th>
@@ -138,7 +138,7 @@ $row3=mysqli_num_rows($q3_result);
                                                      if($row3>0)
                                                      {
                                                         ?>
-                                                        <th> <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> report</a> </th>              
+                                                        <th> <a href="https://career-counselling.herokuapp.com/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> report</a> </th>              
                                                          <?php 
                                                     }
                                                     else{
@@ -173,7 +173,7 @@ $row3=mysqli_num_rows($q3_result);
                                         </tr>
                                        
                                         <tr>
-                                            <th> <a href="http://localhost/phplessons/hackathon-website/startbootstrap-modern-business-gh-pages/index.php"> <span class="glyphicon glyphicon-th"></span> career </a></th>
+                                            <th> <a href="https://career-counselling.herokuapp.com/index.php"> <span class="glyphicon glyphicon-th"></span> career </a></th>
                                         </tr>
                                         <tr>
                                               
@@ -191,7 +191,7 @@ $row3=mysqli_num_rows($q3_result);
                                                      if($row3>0)
                                                      {
                                                         ?>
-                                                        <th> <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> result</a> </th>              
+                                                        <th> <a href="https://career-counselling.herokuapp.com/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> result</a> </th>              
                                                          <?php 
                                                     }
                                                     else{
@@ -259,7 +259,7 @@ $row3=mysqli_num_rows($q3_result);
                                             <div class=" col-xs-4 " style="margin-left: 80px;" >
                                                    <h2 style="margin-left:100px; text-decoration:underline;">Persnality</h2>
                                                    <div class="thumbnail">
-                                                      <img src="http://localhost/phplessons/hackathon-website/image/research-assessment.jpg" style="height:160px; width:100%;" alt="responsive image">
+                                                      <img src="https://career-counselling.herokuapp.com/image/research-assessment.jpg" style="height:160px; width:100%;" alt="responsive image">
                                                    </div>
                                                  
                                                     
@@ -269,11 +269,11 @@ $row3=mysqli_num_rows($q3_result);
                                                    
                                                     if($row>0){ $r++;?>
 
-                                                     <a href="http://localhost/phplessons/hackathon-website/Graduation/Personality_part_1.php"> <button class="btn btn-danger  btn-block " disabled >Allready submitted</button></a>
+                                                     <a href="https://career-counselling.herokuapp.com/Graduation/Personality_part_1.php"> <button class="btn btn-danger  btn-block " disabled >Allready submitted</button></a>
                                                     <?php }   
  
                                                   else{ ?>
-                                                  <a href="http://localhost/phplessons/hackathon-website/Graduation/Personality_part_1.php"> <button class="btn btn-danger  btn-block " >Start</button></a>
+                                                  <a href="https://career-counselling.herokuapp.com/Graduation/Personality_part_1.php"> <button class="btn btn-danger  btn-block " >Start</button></a>
                                                   <?php }
  
                                                    ?>
@@ -287,7 +287,7 @@ $row3=mysqli_num_rows($q3_result);
                                                 <div class=" col-xs-4 " style="margin-left: 50px;" >
                                                    <h2 style="margin-left:120px; text-decoration:underline;">Interest</h2>
                                                    <div class="thumbnail">
-                                                      <img src="http://localhost/phplessons/hackathon-website/image/research-assessment.jpg" style="height:160px; width:100%;"alt="responsive image">
+                                                      <img src="https://career-counselling.herokuapp.com/image/research-assessment.jpg" style="height:160px; width:100%;"alt="responsive image">
                                                    </div>
                                                   
                                                 
@@ -296,11 +296,11 @@ $row3=mysqli_num_rows($q3_result);
                                                     
                                                    if($row1 > 0){ $r++; ?>
 
-                                                   <a href="http://localhost/phplessons/hackathon-website/Graduation/interest_part_1.php"> <button class="btn btn-danger  btn-block " disabled >Allready Submitted</button></a>
+                                                   <a href="https://career-counselling.herokuapp.com/Graduation/interest_part_1.php"> <button class="btn btn-danger  btn-block " disabled >Allready Submitted</button></a>
                                                   <?php }   
 
                                                   else{ ?>
-                                                    <a href="http://localhost/phplessons/hackathon-website/Graduation/interest_part_1.php"> <button class="btn btn-danger  btn-block " >Start</button></a>
+                                                    <a href="https://career-counselling.herokuapp.com/Graduation/interest_part_1.php"> <button class="btn btn-danger  btn-block " >Start</button></a>
                                                    <?php }
 
                                                         ?>
@@ -309,7 +309,7 @@ $row3=mysqli_num_rows($q3_result);
                                                 <div class="col-xs-4" style="margin-left: 80px;">
                                                     <h2 style="margin-left:50px; text-decoration:underline;">Skills & strength</h2>
                                                     <div class="thumbnail" >
-                                                        <img src="http://localhost/phplessons/hackathon-website/image/research-assessment.jpg"style="height:160px; width:100%;" alt="responsive image">
+                                                        <img src="https://career-counselling.herokuapp.com/image/research-assessment.jpg"style="height:160px; width:100%;" alt="responsive image">
                                                      </div>
                                                     
                                                           
@@ -321,11 +321,11 @@ $row3=mysqli_num_rows($q3_result);
     
                                                            ?>
 
-                                                          <a href="http://localhost/phplessons/hackathon-website/Graduation/skills_strength.php"><button class="btn btn-danger btn-block" disabled >Allready Submitted</button></a>
+                                                          <a href="https://career-counselling.herokuapp.com/Graduation/skills_strength.php"><button class="btn btn-danger btn-block" disabled >Allready Submitted</button></a>
                                                            <?php }   
 
                                                           else{ ?>
-                                                           <a href="http://localhost/phplessons/hackathon-website/Graduation/skills_strength.php"><button class="btn btn-danger btn-block" >Start</button></a>
+                                                           <a href="https://career-counselling.herokuapp.com/Graduation/skills_strength.php"><button class="btn btn-danger btn-block" >Start</button></a>
                                                          <?php }
 
                                                            ?>
@@ -335,7 +335,7 @@ $row3=mysqli_num_rows($q3_result);
                                                 <div class="col-xs-4" style="margin-left: 50px;">
                                                     <h2 style="text-decoration:underline;">Academic  performance</h2>
                                                     <div class="thumbnail">
-                                                        <img src="http://localhost/phplessons/hackathon-website/image/research-assessment.jpg " style="height:160px; width:100%;"alt="responsive image">
+                                                        <img src="https://career-counselling.herokuapp.com/image/research-assessment.jpg " style="height:160px; width:100%;"alt="responsive image">
                                                      </div>
                                                      
                                                         
@@ -345,11 +345,11 @@ $row3=mysqli_num_rows($q3_result);
 
                                                         if($row3 > 0){ $r++; ?>
 
-                                                           <a href="http://localhost/phplessons/hackathon-website/Graduation/academic_marks.php"><button class="btn btn-danger btn-block" disabled>Already submitted</button></a>
+                                                           <a href="https://career-counselling.herokuapp.com/Graduation/academic_marks.php"><button class="btn btn-danger btn-block" disabled>Already submitted</button></a>
                                                             <?php }   
 
                                                                 else{ ?>
-                                                             <a href="http://localhost/phplessons/hackathon-website/Graduation/academic_marks.php"><button class="btn btn-danger btn-block" >Start</button></a>
+                                                             <a href="https://career-counselling.herokuapp.com/Graduation/academic_marks.php"><button class="btn btn-danger btn-block" >Start</button></a>
                                                                  <?php }
 
                                                                ?>
@@ -369,9 +369,9 @@ $row3=mysqli_num_rows($q3_result);
                                           <?php 
                                           
                                           if($r==4){?>
-                                           <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <button class="btn btn-primary "  style="margin-left:450px;" >Result</button> </a>
+                                           <a href="https://career-counselling.herokuapp.com/Graduation/graduation_report.php"> <button class="btn btn-primary "  style="margin-left:450px;" >Result</button> </a>
                                           <?php } else{?>
-                                            <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <button class="btn btn-primary " disabled style="margin-left:450px;" >Attempt first</button> </a>
+                                            <a href="https://career-counselling.herokuapp.com/Graduation/graduation_report.php"> <button class="btn btn-primary " disabled style="margin-left:450px;" >Attempt first</button> </a>
                                           <?php } ?>
                                          </div>       
                                      </div>

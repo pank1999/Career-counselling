@@ -90,14 +90,14 @@ if(!isset($_SESSION['email'])){
                                             <th> <span class="glyphicon glyphicon-link"></span> Dashboard</th>
                                         </tr>
                                         <tr>
-                                            <th><a href="http://localhost/phplessons/hackathon-website/profile.php" ><span class="glyphicon glyphicon-user"></span> profile</a></th>
+                                            <th><a href="https://career-counselling.herokuapp.com/profile.php" ><span class="glyphicon glyphicon-user"></span> profile</a></th>
                                         </tr>
                                         <tr>
                                             <th>
                                                
                                                 <div class="dropdown show">
                                                 
-                                                    <span class="glyphicon glyphicon-book"></span> <a href="http://localhost/phplessons/hackathon-website/dashboard.php"> Assignments </a>
+                                                    <span class="glyphicon glyphicon-book"></span> <a href="https://career-counselling.herokuapp.com/dashboard.php"> Assignments </a>
                                                  
                                                    <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style=" background-color: rgb(159, 161, 163); color:white;">
                                                       <a class="dropdown-item ass" href="#" style=" height:10px;color: rgb(21, 21, 22);">Assignment-1</a>
@@ -113,10 +113,10 @@ if(!isset($_SESSION['email'])){
                                             <th> <span class="glyphicon glyphicon-education"></span><button  style="  background-color:  rgb(9, 130, 134); font-size:18px; text-decoration:solid; " class="btn">Result</button> </th>
                                         </tr>
                                         <tr>
-                                            <th> <a href="http://localhost/phplessons/hackathon-website/startbootstrap-modern-business-gh-pages/index.php"> <span class="glyphicon glyphicon-th"></span> career </a></th>
+                                            <th> <a href="https://career-counselling.herokuapp.com/index.php"> <span class="glyphicon glyphicon-th"></span> career </a></th>
                                         </tr>
                                         <tr>
-                                            <th> <a href="http://localhost/phplessons/hackathon-website/report_class_10.php"> <span class="glyphicon glyphicon-signal"></span> report</a></th>
+                                            <th> <a href="https://career-counselling.herokuapp.com/report_class_10.php"> <span class="glyphicon glyphicon-signal"></span> report</a></th>
                                         </tr>
                             
 
@@ -199,7 +199,7 @@ if(!isset($_SESSION['email'])){
                                          <div class="row">
                                              <h3 style="text align:center; color:rgb(9, 107, 91);">For detailied report go to the report section or click buttton 
 
-                                              <a href="http://localhost/phplessons/hackathon-website/report_class_10.php"> <button class="btn btn-primary" style="margin-left:50px;">Report</button></a>
+                                              <a href="https://career-counselling.herokuapp.com/report_class_10.php"> <button class="btn btn-primary" style="margin-left:50px;">Report</button></a>
                                          
                                             </h3>
                                             </div>

@@ -106,7 +106,7 @@ $row3=mysqli_num_rows($q3_result);
                                             <th> <span class="glyphicon glyphicon-link"></span> Dashboard</th>
                                         </tr>
                                         <tr>
-                                            <th><a href="http://localhost/phplessons/hackathon-website/profile.php" ><span class="glyphicon glyphicon-user"></span> profile</a></th>
+                                            <th><a href="https://career-counselling.herokuapp.com/profile.php" ><span class="glyphicon glyphicon-user"></span> profile</a></th>
                                         </tr>
                                         <tr>
                                             <th>
@@ -140,7 +140,7 @@ $row3=mysqli_num_rows($q3_result);
                                                      if($row3>0)
                                                      {
                                                         ?>
-                                                        <th> <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> report</a> </th>              
+                                                        <th> <a href="https://career-counselling.herokuapp.com/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> report</a> </th>              
                                                          <?php 
                                                     }
                                                     else{
@@ -174,7 +174,7 @@ $row3=mysqli_num_rows($q3_result);
                                           ?>
                                         </tr>
                                         <tr>
-                                            <th> <a href="http://localhost/phplessons/hackathon-website/startbootstrap-modern-business-gh-pages/index.php"> <span class="glyphicon glyphicon-th"></span> career </a></th>
+                                            <th> <a href="https://career-counselling.herokuapp.com/index.php"> <span class="glyphicon glyphicon-th"></span> career </a></th>
                                         </tr>
                                         <tr>
                                         <?php 
@@ -191,7 +191,7 @@ $row3=mysqli_num_rows($q3_result);
                                                      if($row3>0)
                                                      {
                                                         ?>
-                                                        <th> <a href="http://localhost/phplessons/hackathon-website/report_class_10.php"> <span class="glyphicon glyphicon-signal"></span> result</a> </th>              
+                                                        <th> <a href="https://career-counselling.herokuapp.com/report_class_10.php"> <span class="glyphicon glyphicon-signal"></span> result</a> </th>              
                                                          <?php 
                                                     }
                                                     else{
@@ -258,7 +258,7 @@ $row3=mysqli_num_rows($q3_result);
                                             <div class=" col-xs-4" style="margin-left: 100px;" >
                                                    <h2 style="margin-left:100px; text-decoration:underline;">Personality</h2>
                                                    <div class="thumbnail">
-                                                      <img src="http://localhost/phplessons/hackathon-website/image/assingnment-image.jpg" alt="responsive image">
+                                                      <img src="https://career-counselling.herokuapp.com/image/assingnment-image.jpg" alt="responsive image">
                                                    </div>
                                                    
                                                    <?php 
@@ -267,7 +267,7 @@ $row3=mysqli_num_rows($q3_result);
                                                    $r=0;
                                                   if($row > 0){ $r++;?>
 
-                                                     <a href="http://localhost/phplessons/hackathon-website/personality/Personality_part_1.php"> <button class="btn btn-primary  btn-block " disabled >Already Submitted</button></a>
+                                                     <a href="https://career-counselling.herokuapp.com/personality/Personality_part_1.php"> <button class="btn btn-primary  btn-block " disabled >Already Submitted</button></a>
                                                    <?php }   
                                                    
                                                    else{ ?>
@@ -284,18 +284,18 @@ $row3=mysqli_num_rows($q3_result);
                                                 <div class=" col-xs-4 " style="margin-left: 50px;" >
                                                    <h2 style="margin-left:120px; text-decoration:underline;">Interest</h2>
                                                    <div class="thumbnail">
-                                                      <img src="http://localhost/phplessons/hackathon-website/image/assingnment-image.jpg" alt="responsive image">
+                                                      <img src="https://career-counselling.herokuapp.com/image/assingnment-image.jpg" alt="responsive image">
                                                    </div>
                                                    <?php 
 
                                                     
                                                  if($row1 > 0){ $r++; ?>
 
-                                                    <a href="http://localhost/phplessons/hackathon-website/class_8_10_interest/Assignments_01_01.php"> <button class="btn btn-primary  btn-block " disabled >Already submitted</button></a>
+                                                    <a href="https://career-counselling.herokuapp.com/class_8_10_interest/Assignments_01_01.php"> <button class="btn btn-primary  btn-block " disabled >Already submitted</button></a>
                                                        <?php }   
 
                                                        else{ ?>
-                                                     <a href="http://localhost/phplessons/hackathon-website/class_8_10_interest/Assignments_01_01.php"> <button class="btn btn-primary  btn-block " >Start</button></a>
+                                                     <a href="https://career-counselling.herokuapp.com/class_8_10_interest/Assignments_01_01.php"> <button class="btn btn-primary  btn-block " >Start</button></a>
                                                          <?php }
 
                                                        ?>
@@ -305,7 +305,7 @@ $row3=mysqli_num_rows($q3_result);
                                                 <div class="col-xs-4" style="margin-left: 100px;">
                                                     <h2 style="margin-left:50px; text-decoration:underline;">Skills & strength</h2>
                                                     <div class="thumbnail" >
-                                                        <img src="http://localhost/phplessons/hackathon-website/image/assingnment-image.jpg" alt="responsive image">
+                                                        <img src="https://career-counselling.herokuapp.com/image/assingnment-image.jpg" alt="responsive image">
                                                      </div>
                                                      <?php 
 
@@ -313,11 +313,11 @@ $row3=mysqli_num_rows($q3_result);
                                                           
                                                           ?>
 
-                                                         <a href="http://localhost/phplessons/hackathon-website/class_8_10_skills_strength.php"> <button class="btn btn-primary  btn-block " disabled >Already submitted</button></a>
+                                                         <a href="https://career-counselling.herokuapp.com/class_8_10_skills_strength.php"> <button class="btn btn-primary  btn-block " disabled >Already submitted</button></a>
                                                           <?php }   
 
                                                             else{ ?>
-                                                          <a href="http://localhost/phplessons/hackathon-website/class_8_10_skills_strength.php"> <button class="btn btn-primary  btn-block " >Start</button></a>
+                                                          <a href="https://career-counselling.herokuapp.com/class_8_10_skills_strength.php"> <button class="btn btn-primary  btn-block " >Start</button></a>
                                                           <?php }
 
                                                           ?>
@@ -328,7 +328,7 @@ $row3=mysqli_num_rows($q3_result);
                                                 <div class="col-xs-4" style="margin-left: 50px;">
                                                     <h2 style="text-decoration:underline;">Academic  performance</h2>
                                                     <div class="thumbnail">
-                                                        <img src="http://localhost/phplessons/hackathon-website/image/assingnment-image.jpg " alt="responsive image">
+                                                        <img src="https://career-counselling.herokuapp.com/image/assingnment-image.jpg " alt="responsive image">
                                                      </div>
                                                      <?php 
 
@@ -336,11 +336,11 @@ $row3=mysqli_num_rows($q3_result);
 
                                                      if($row3 > 0){  $r++;?>
 
-                                                     <a href="http://localhost/phplessons/hackathon-website/Academic.php"> <button class="btn btn-primary  btn-block " disabled >Already submitted</button></a>
+                                                     <a href="https://career-counselling.herokuapp.com/Academic.php"> <button class="btn btn-primary  btn-block " disabled >Already submitted</button></a>
                                                    <?php }   
                                                    
                                                    else{ ?>
-                                                    <a href="http://localhost/phplessons/hackathon-website/Academic.php"> <button class="btn btn-primary  btn-block " >Start</button></a>
+                                                    <a href="https://career-counselling.herokuapp.com/Academic.php"> <button class="btn btn-primary  btn-block " >Start</button></a>
                                                   <?php }
                                                    
                                                    ?>
@@ -358,9 +358,9 @@ $row3=mysqli_num_rows($q3_result);
                                           
                                           
                                           if($r==4){?>
-                                           <a href="http://localhost/phplessons/hackathon-website/report_class_10.php"> <button class="btn btn-primary "  style="margin-left:450px;" >Result</button> </a>
+                                           <a href="https://career-counselling.herokuapp.com/report_class_10.php"> <button class="btn btn-primary "  style="margin-left:450px;" >Result</button> </a>
                                           <?php } else{?>
-                                            <a href="http://localhost/phplessons/hackathon-website/report_class_10.php"> <button class="btn btn-primary " disabled style="margin-left:450px;" >Attempt first</button> </a>
+                                            <a href="https://career-counselling.herokuapp.com/report_class_10.php"> <button class="btn btn-primary " disabled style="margin-left:450px;" >Attempt first</button> </a>
                                           <?php } ?>
                                          </div>       
 

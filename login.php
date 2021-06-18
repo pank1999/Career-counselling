@@ -53,7 +53,7 @@
 
                     </div>
                     <div class="panel-footer">
-                        <p>Don't have an account ? <a href="http://localhost/phplessons/hackathon-website/signup.php">Register</a></p>
+                        <p>Don't have an account ? <a href="https://career-counselling.herokuapp.com/signup.php">Register</a></p>
 
                     </div>
 

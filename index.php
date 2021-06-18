@@ -107,14 +107,14 @@ include('include/header.php');
     <!-- Portfolio Section -->
     <div class="container">
     <div class="jumbotron col-xs-12"style="background-color:skyblue; margin-top:10px;" >
-      <h1 style="text-align:center; text-decoration:underline;">Some of the Popular Careers</h1>
+      <h1 style="text-align:center; text-decoration:underline;">some of the popular careers</h1>
 
     </div>
     </div>
     <div class="row">
       <div class="col-lg-3 col-sm-6 portfolio-item">
         <div class="card h-100 shadow inner">
-          <a href="#"><img class="card-img-top" style="height:250px;" src="http://localhost/phplessons/hackathon-website/image/engineering-img.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" style="height:250px;" src="https://career-counselling.herokuapp.com/image/engineering-img.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title"style="text-align:center;">
               <a href="https://www.askiitians.com/exams/engineering-branches/engineering-departments-in-india-scope-career-and-future.html">Engineering</a>
@@ -125,7 +125,7 @@ include('include/header.php');
       </div>
       <div class="col-lg-3 col-sm-6 portfolio-item">
         <div class="card h-100 shadow inner">
-          <a href="#"><img class="card-img-top" style="height:250px;" src="http://localhost/phplessons/hackathon-website/image/doctor.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" style="height:250px;" src="https://career-counselling.herokuapp.com/image/doctor.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title" style="text-align:center;">
               <a href="https://www.shiksha.com/careers/medicine-76">Doctor</a>
@@ -136,7 +136,7 @@ include('include/header.php');
       </div>
       <div class="col-lg-3 col-sm-6 portfolio-item">
         <div class="card h-100 shadow inner">
-          <a href="#"><img class="card-img-top" style="height:250px;" src="http://localhost/phplessons/hackathon-website/image/management.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" style="height:250px;" src="https://career-counselling.herokuapp.com/image/management.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title"style="text-align:center;">
               <a href="https://www.collegedekho.com/articles/job-opportunities-after-mba-in-india/">Management</a>
@@ -147,7 +147,7 @@ include('include/header.php');
       </div>
       <div class="col-lg-3 col-sm-6 portfolio-item">
         <div class="card h-100 shadow inner">
-          <a href="#"><img class="card-img-top" style="height:250px;" src="http://localhost/phplessons/hackathon-website/image/pilot1.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" style="height:250px;" src="https://career-counselling.herokuapp.com/image/pilot1.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title"style="text-align:center;">
               <a href="https://www.sarvgyan.com/courses/science/pilot#:~:text=In%20India%2C%20if%20one%20should,experience%2C%20they%20can%20get%20Rs.">Pilot</a>
@@ -158,7 +158,7 @@ include('include/header.php');
       </div>
       <div class="col-lg-3 col-sm-6 portfolio-item">
         <div class="card h-100 shadow inner">
-          <a href="#"><img class="card-img-top" style="height:250px;" src="http://localhost/phplessons/hackathon-website/image/teaching.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" style="height:250px;" src="https://career-counselling.herokuapp.com/image/teaching.jpg" alt=""></a>
           <div class="card-body"style="text-align:center;">
             <h4 class="card-title">
               <a href="https://www.indiaeducation.net/careercenter/humanities/teaching/">Teaching</a>
@@ -169,7 +169,7 @@ include('include/header.php');
       </div>
       <div class="col-lg-3 col-sm-6 portfolio-item">
         <div class="card h-100 shadow inner">
-          <a href="#"><img class="card-img-top" style="height:250px;" src="http://localhost/phplessons/hackathon-website/image/Lawyer.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" style="height:250px;" src="https://career-counselling.herokuapp.com/image/Lawyer.jpg" alt=""></a>
           <div class="card-body"style="text-align:center;">
             <h4 class="card-title">
               <a href="https://www.sarvgyan.com/courses/law/llb">Law</a>
@@ -182,7 +182,7 @@ include('include/header.php');
 
       <div class="col-lg-3 col-sm-6 portfolio-item">
         <div class="card h-100 shadow inner">
-          <a href="#"><img class="card-img-top" style="height:250px;" src="http://localhost/phplessons/hackathon-website/image/agriculture.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" style="height:250px;" src="https://career-counselling.herokuapp.com/image/agriculture.jpg" alt=""></a>
           <div class="card-body"style="text-align:center;">
             <h4 class="card-title">
               <a href="https://www.shiksha.com/science/articles/bsc-agriculture-scope-and-career-opportunities-blogId-20829">Agriculture</a>
@@ -194,7 +194,7 @@ include('include/header.php');
 
       <div class="col-lg-3 col-sm-6 portfolio-item">
         <div class="card h-100 shadow inner">
-          <a href="#"><img class="card-img-top" style="height:250px;" src="http://localhost/phplessons/hackathon-website/image/jour.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" style="height:250px;" src="https://career-counselling.herokuapp.com/image/jour.jpg" alt=""></a>
           <div class="card-body"style="text-align:center;">
             <h4 class="card-title">
               <a href="#">Journalism</a>
@@ -227,7 +227,7 @@ include('include/header.php');
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid rounded" src="http://localhost/phplessons/hackathon-website/image/career-businessman-img">
+        <img class="img-fluid rounded" src="https://career-counselling.herokuapp.com/image/career-businessman-img">
       </div>
     </div>
 
@@ -246,7 +246,7 @@ include('include/header.php');
   
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; career counseling 2021</p>
     </div>
 
     

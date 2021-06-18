@@ -111,7 +111,7 @@ session_start();
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
+        <!-- Slide One - Set the background image for this slide in the line below -
         <div class="carousel-item active" > 
         
         
@@ -122,16 +122,16 @@ session_start();
             <p></p>
           </div>
         </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <-- Slide Two - Set the background image for this slide in the line below -
         <div class="carousel-item" >
         <img src="https://career-counselling.herokuapp.com/image/careers_slide-4.jpg" alt="responsive" class="img img-responsive" style="width:100%;height:100%;">
           <div class="carousel-caption d-none d-md-block">
             <h3></h3>
             <p></p>
           </div>
-        </div>
+        </div> -->
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" >
+        <div class="carousel-item active" >
 
         <img src="https://career-counselling.herokuapp.com/image/Career-slide-3" alt="responsive" class="img img-responsive" style="width:100%;height:100%;">
           <div class="carousel-caption d-none d-md-block">
