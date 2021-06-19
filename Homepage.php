@@ -188,7 +188,7 @@ session_start();
      </button>
       <?php } 
       else{ ?>
-        <button class="button " style="margin-left:600px ; margin-top:20px;
+        <button class="button " style="margin-left:45%; margin-top:20px;
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -484,25 +484,25 @@ session_start();
     <div class="row">
        <div class="col-lg-3  shadow inner">
           <div cl="thumbnail  ">
-          <img class="img-fluid rounded" style="height:200px;" src="https://career-counselling.herokuapp.com/image/interest.jpg">
+          <img class="img-fluid rounded" style="height:200px; width:100%;" src="https://career-counselling.herokuapp.com/image/interest.jpg">
           </div>
        </div>
 
        <div class="col-lg-3 shadow inner">
           <div cl="thumbnail ">
-          <img class="img-fluid rounded" style="height:200px;width:300px;" src="https://career-counselling.herokuapp.com/image/skills.jpg">
+          <img class="img-fluid rounded" style="height:200px;width:100%;" src="https://career-counselling.herokuapp.com/image/skills.jpg">
           </div>
        </div>
 
        <div class="col-lg-3  shadow inner">
           <div cl="thumbnail ">
-           <img class="img-fluid rounded" style="height:200px;" src="https://career-counselling.herokuapp.com/image/strengths-img.jpg">
+           <img class="img-fluid rounded" style="height:200px; width:100%;" src="https://career-counselling.herokuapp.com/image/strengths-img.jpg">
           </div>
        </div>
 
        <div class="col-lg-3  shadow inner">
           <div cl="thumbnail ">
-          <img class="img-fluid rounded" style="height:200px;" src="https://career-counselling.herokuapp.com/image/goals.jpg">
+          <img class="img-fluid rounded" style="height:200px; width:100%;" src="https://career-counselling.herokuapp.com/image/goals.jpg">
           </div>
        </div>
     </div>
@@ -513,7 +513,6 @@ session_start();
 
 
 <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
- <center><p style="margin-left:20%; font-size:50px;">Feedback / Query</p></center>
   <div class="w3-row">
     <div class="w3-col m5">
     <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
