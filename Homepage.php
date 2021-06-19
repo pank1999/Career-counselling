@@ -48,7 +48,7 @@ session_start();
 
 <body>
 
-<!-- Sidebar on click -
+<!-- Sidebar on click -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2 ;background-color:rgb(74, 206, 230);" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
     <i class="fa fa-remove"></i>
@@ -59,7 +59,7 @@ session_start();
   <a href="#" class="w3-bar-item w3-button">Contact</a>
   <a href="#" class="w3-bar-item w3-button">About us</a>
 </nav>
-  -->
+<!--
 <div class="w3-sidebar w3-bar-block w3-collapse" style="width:200px;right:0" id="mySidebar">
   <button class="w3-bar-item w3-button w3-hide-large"
   onclick="w3_close()">Close &times;</button>
@@ -74,7 +74,7 @@ session_start();
     </div>
   <a href="#contact" class="w3-bar-item w3-button">contact</a>
 </div>
-
+  -->
 
 <!-- navbar-->
 <div class="w3-top">
