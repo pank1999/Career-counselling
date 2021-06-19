@@ -59,6 +59,8 @@ session_start();
   <a href="#" class="w3-bar-item w3-button">Contact</a>
   <a href="#" class="w3-bar-item w3-button">About us</a>
 </nav>
+
+
 <!--
 <div class="w3-sidebar w3-bar-block w3-collapse" style="width:200px;right:0" id="mySidebar">
   <button class="w3-bar-item w3-button w3-hide-large"
@@ -172,7 +174,7 @@ session_start();
   <?php 
       if(isset($_SESSION['email'])){   
         ?> 
-    <button class="button " style="margin-left:45% ; margin-top:20px;
+    <button class="button " style="margin-left:40% ; margin-top:20px;
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -188,7 +190,7 @@ session_start();
      </button>
       <?php } 
       else{ ?>
-        <button class="button " style="margin-left:45%; margin-top:20px;
+        <button class="button " style="margin-left:40%; margin-top:20px;
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -211,7 +213,7 @@ session_start();
   <!-- Pricing Row -->
   <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
     <h2 style="font-size:50px; text-decoration:underline;">How we help you </h2>
-    <p style="font-size:30px;text-decoration:underline;">Choose a class to get start your counselling.</p><br>
+    <p style="font-size:30px;text-decoration:underline; color:#00f7c2">Choose a class to get start your counselling.</p><br>
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-hover-shadow">
         <li class="w3-theme">
@@ -332,7 +334,7 @@ session_start();
   <!-- Page Content -->
   <div class="container">
 
-    <h1 class="my-4" style="text-align:center; text-decoration:underline;">Find your best career option here! </h1>
+    <h1 class="my-4" style="text-align:center; margin-top:100px; text-decoration:underline #00f7c2;">Find your best career option here! </h1>
 
     <!-- Marketing Icons Section 
     <div class="row">
@@ -397,7 +399,7 @@ session_start();
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
       </div>
       <div class="col-lg-6  inner">
-        <img class="img-fluid rounded" src="https://career-counselling.herokuapp.com/image/backgroundpdf.jpg">
+        <img class="img-fluid rounded" style="height: 300px; width:100%" src="https://career-counselling.herokuapp.com/image/backgroundpdf.jpg">
       </div>
     </div>
     <!-- /.row -->
@@ -480,7 +482,7 @@ session_start();
 <!-- Contact Container -->
 
 <div class="container">
-     <h1 style="text-align:center;text-decoration:underline;">Assessments</h1>
+     <h1 style="text-align:center; margin-top:100px; margin-bottom:50px;text-decoration:underline #00f7c2; ">Assessments</h1>
     <div class="row">
        <div class="col-lg-3  shadow inner">
           <div cl="thumbnail  ">
@@ -569,6 +571,17 @@ session_start();
   </footer>
 
   <!-- Bootstrap core JavaScript -->
+  <script>
+
+    function openNav(){
+      document.getElementById("w3-Sidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+     }
+  </script>
+
   <script src="https://career-counselling.herokuapp.com/vendor/jquery/jquery.min.js"></script>
   <script src="https://career-counselling.herokuapp.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
