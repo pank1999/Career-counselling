@@ -574,11 +574,11 @@ session_start();
   <script>
 
     function openNav(){
-      document.getElementByClassName("w3-sidebar").style.display = "block";
+      document.getElementById("navDemo").style.display = "block";
     }
 
     function w3_close() {
-      document.getElementByClassName("w3-sidebar").style.display = "none";
+      document.querySelector(".w3-sidebar").style.display = "none";
      }
   </script>
 
